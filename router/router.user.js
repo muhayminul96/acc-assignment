@@ -77,7 +77,6 @@ async function run() {
   
       })
       router.patch("/bulk-update", async(req, res) => {
-        console.log(req.body.ids)
         result=[]
         for(const id of req.body.ids){
           
