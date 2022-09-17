@@ -1,6 +1,7 @@
 // dependency 
 
 const { MongoClient, ServerApiVersion } = require('mongodb');
+require('dotenv').config()
 
 // connections 
 const uri = "mongodb+srv://accAdmin:KJPJ2Qea45MY9XTV@acc.0nsaajz.mongodb.net/?retryWrites=true&w=majority";
